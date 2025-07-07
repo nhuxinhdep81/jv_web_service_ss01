@@ -1,0 +1,2 @@
+create database jv_web_service_ss01;
+use jv_web_service_ss01;

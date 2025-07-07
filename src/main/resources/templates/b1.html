@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spring MVC vs Spring Boot - So sánh đơn giản</title>
+  <style>
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #e0f7fa;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background-color: #f0f0f0;
+    }
+    tr:hover {
+      background-color: #e0e0e0;
+    }
+    h1 {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    p {
+      width: 80%;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+<h1>Spring MVC vs Spring Boot</h1>
+<table>
+  <tr>
+    <th>Tiêu chí</th>
+    <th>Spring MVC</th>
+    <th>Spring Boot</th>
+  </tr>
+  <tr>
+    <td><strong>Định nghĩa</strong></td>
+    <td>Module của Spring, giúp xây ứng dụng web theo mô hình MVC (Model-View-Controller).</td>
+    <td>Framework dựa trên Spring, làm mọi thứ dễ hơn với cấu hình sẵn và ít code hơn.</td>
+  </tr>
+  <tr>
+    <td><strong>Cấu hình</strong></td>
+    <td>Phải tự tay thiết lập nhiều thứ (như file XML hoặc Java code) để chạy được.</td>
+    <td>Tự động cấu hình gần như mọi thứ, chỉ cần thêm phụ thuộc là xong.</td>
+  </tr>
+  <tr>
+    <td><strong>Khởi tạo dự án</strong></td>
+    <td>Tạo thủ công, tốn thời gian thiết lập file cấu hình và server.</td>
+    <td>Dùng Spring Initializr, tạo dự án nhanh gọn chỉ trong vài cú click.</td>
+  </tr>
+  <tr>
+    <td><strong>Quản lý thư viện</strong></td>
+    <td>Phải tự thêm và quản lý thư viện, dễ gặp lỗi phiên bản.</td>
+    <td>Tự động chọn và quản lý thư viện qua các "Starter", không lo xung đột.</td>
+  </tr>
+  <tr>
+    <td><strong>Tốc độ phát triển</strong></td>
+    <td>Chậm hơn vì cần cấu hình nhiều, phù hợp khi muốn tùy chỉnh sâu.</td>
+    <td>Nhanh hơn nhờ server nhúng (như Tomcat) và cấu hình mặc định sẵn sàng.</td>
+  </tr>
+</table>
+<p><strong>Giải thích ngắn gọn:</strong><br>
+  - <strong>Spring MVC</strong>: Là một phần của Spring, giúp bạn xây ứng dụng web nhưng yêu cầu bạn tự làm nhiều việc như thiết lập server, cấu hình file. Phù hợp nếu bạn muốn kiểm soát mọi thứ chi tiết.<br>
+  - <strong>Spring Boot</strong>: Như một phiên bản "thân thiện" của Spring, tự động làm hầu hết các bước cấu hình, giúp bạn bắt đầu nhanh hơn và tập trung vào viết code logic. Lý tưởng cho dự án cần phát triển nhanh hoặc người mới học.<br>
+  Nếu bạn mới bắt đầu hoặc muốn tiết kiệm thời gian, Spring Boot là lựa chọn dễ hơn. Spring MVC thì dành cho các dự án cần tùy chỉnh cao.</p>
+</body>
+</html>
