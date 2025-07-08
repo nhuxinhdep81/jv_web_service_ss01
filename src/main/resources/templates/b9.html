@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Management Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+<h1>Tài Liệu Quản Lý Sản Phẩm</h1>
+<table>
+  <tr>
+    <th>URL</th>
+    <th>Phương thức</th>
+    <th>Mô tả chức năng</th>
+  </tr>
+  <tr>
+    <td>/products/add</td>
+    <td>GET</td>
+    <td>Hiển thị form để thêm sản phẩm mới.</td>
+  </tr>
+  <tr>
+    <td>/products/add</td>
+    <td>POST</td>
+    <td>Thêm sản phẩm mới vào cơ sở dữ liệu.</td>
+  </tr>
+  <tr>
+    <td>/products</td>
+    <td>GET</td>
+    <td>Hiển thị danh sách tất cả sản phẩm.</td>
+  </tr>
+  <tr>
+    <td>/products/update/{id}</td>
+    <td>GET</td>
+    <td>Hiển thị form cập nhật thông tin sản phẩm theo ID.</td>
+  </tr>
+  <tr>
+    <td>/products/update/{id}</td>
+    <td>POST</td>
+    <td>Cập nhật thông tin sản phẩm theo ID.</td>
+  </tr>
+  <tr>
+    <td>/products/delete/{id}</td>
+    <td>GET</td>
+    <td>Xóa sản phẩm theo ID.</td>
+  </tr>
+</table>
+</body>
+</html>
